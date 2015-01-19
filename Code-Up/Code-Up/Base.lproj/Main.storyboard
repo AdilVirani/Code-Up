@@ -2,12 +2,13 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Code_Up" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" userLabel="Login View Controller" customClass="ViewController" customModule="Code_Up" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -16,52 +17,107 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Code-Up-2" translatesAutoresizingMaskIntoConstraints="NO" id="p6s-07-kyL">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="36" y="38" width="328" height="143"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Code-Up-2" translatesAutoresizingMaskIntoConstraints="NO" id="rSZ-W7-Lfn">
+                                <rect key="frame" x="135" y="34" width="331" height="143"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="331" id="SVI-vH-nds"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="SVI-vH-nds"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="SVI-vH-nds"/>
+                                    </mask>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CODE-UP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9f-71-PrG">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="rsz_github" translatesAutoresizingMaskIntoConstraints="NO" id="jjl-hx-01h">
+                                <rect key="frame" x="270" y="474" width="60" height="60"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Code Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQC-LS-DlX">
+                                <rect key="frame" x="212" y="171" width="177" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="177" id="41o-yF-HfI"/>
+                                    <constraint firstAttribute="height" constant="51" id="QUc-hP-zag"/>
+                                    <constraint firstAttribute="height" constant="51" id="dAB-lG-gem"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="39"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="41"/>
-                                    <rect key="frame" x="88" y="175" width="224" height="45"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="41o-yF-HfI"/>
+                                        <exclude reference="QUc-hP-zag"/>
+                                        <exclude reference="dAB-lG-gem"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="41o-yF-HfI"/>
+                                        <include reference="QUc-hP-zag"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="103" y="182" width="194" height="51"/>
+                                    <mask key="constraints">
+                                        <include reference="dAB-lG-gem"/>
+                                    </mask>
                                 </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="github" translatesAutoresizingMaskIntoConstraints="NO" id="ctK-MS-DuQ">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="170" y="444" width="60" height="60"/>
-                                </variation>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.33080808080000002" green="0.33080808080000002" blue="0.33080808080000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="rSZ-W7-Lfn" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="19" id="Kjc-Vw-vGY"/>
+                            <constraint firstItem="KQC-LS-DlX" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="151" id="KqZ-S8-j0x"/>
+                            <constraint firstItem="KQC-LS-DlX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="96" id="Pmu-WS-hHd"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="jjl-hx-01h" secondAttribute="bottom" constant="182" id="Q8J-EG-hJo"/>
+                            <constraint firstAttribute="centerX" secondItem="jjl-hx-01h" secondAttribute="centerX" id="YJ7-xz-Wx9"/>
+                            <constraint firstItem="KQC-LS-DlX" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="160" id="Yia-SW-EKr"/>
+                            <constraint firstAttribute="centerX" secondItem="rSZ-W7-Lfn" secondAttribute="centerX" id="bdG-rQ-Jmd"/>
+                            <constraint firstItem="rSZ-W7-Lfn" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="22" id="eoo-Rp-Hzs"/>
+                            <constraint firstItem="rSZ-W7-Lfn" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="14" id="lqY-bj-Ndj"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="jjl-hx-01h" secondAttribute="bottom" constant="114" id="uoh-oM-tFx"/>
+                            <constraint firstAttribute="centerX" secondItem="KQC-LS-DlX" secondAttribute="centerX" id="yLq-sd-FT6"/>
+                        </constraints>
                         <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="p6s-07-kyL"/>
-                                <exclude reference="z9f-71-PrG"/>
-                                <exclude reference="ctK-MS-DuQ"/>
+                            <mask key="constraints">
+                                <exclude reference="Kjc-Vw-vGY"/>
+                                <exclude reference="eoo-Rp-Hzs"/>
+                                <exclude reference="lqY-bj-Ndj"/>
+                                <exclude reference="KqZ-S8-j0x"/>
+                                <exclude reference="Pmu-WS-hHd"/>
+                                <exclude reference="Yia-SW-EKr"/>
+                                <exclude reference="Q8J-EG-hJo"/>
+                                <exclude reference="uoh-oM-tFx"/>
                             </mask>
                         </variation>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="p6s-07-kyL"/>
-                                <include reference="z9f-71-PrG"/>
-                                <include reference="ctK-MS-DuQ"/>
+                        <variation key="heightClass=regular">
+                            <mask key="constraints">
+                                <include reference="lqY-bj-Ndj"/>
+                                <include reference="KqZ-S8-j0x"/>
+                                <include reference="Q8J-EG-hJo"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="Kjc-Vw-vGY"/>
+                                <include reference="eoo-Rp-Hzs"/>
+                                <include reference="Pmu-WS-hHd"/>
+                                <include reference="Yia-SW-EKr"/>
+                                <include reference="uoh-oM-tFx"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="144" y="385.5"/>
         </scene>
     </scenes>
     <resources>
         <image name="Code-Up-2" width="330" height="143"/>
-        <image name="github" width="512" height="512"/>
+        <image name="rsz_github" width="60" height="60"/>
     </resources>
 </document>
