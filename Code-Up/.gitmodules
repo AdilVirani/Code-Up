@@ -1,0 +1,3 @@
+[submodule "octokit.objc"]
+	path = octokit.objc
+	url = git@github.com:octokit/octokit.objc.git

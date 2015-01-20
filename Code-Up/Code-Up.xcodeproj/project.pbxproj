@@ -28,6 +28,118 @@
 			remoteGlobalIDString = CC0118EF1A6CE382004A4FE0;
 			remoteInfo = "Code-Up";
 		};
+		CCD4D6911A6EF8B700EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6891A6EF8B700EB5B98 /* OctoKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0871EA8169E2EFC00016ACA;
+			remoteInfo = "OctoKit Mac";
+		};
+		CCD4D6931A6EF8B700EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6891A6EF8B700EB5B98 /* OctoKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0871EC0169E2EFC00016ACA;
+			remoteInfo = "OctoKit Mac Tests";
+		};
+		CCD4D6951A6EF8B700EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6891A6EF8B700EB5B98 /* OctoKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0040CF319FEC579002869A6;
+			remoteInfo = "OctoKit iOS";
+		};
+		CCD4D6971A6EF8B700EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6891A6EF8B700EB5B98 /* OctoKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0040CFD19FEC579002869A6;
+			remoteInfo = "OctoKit iOS Tests";
+		};
+		CCD4D6A01A6EF8D700EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6991A6EF8D700EB5B98 /* OctoKitDependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0476DBD177916920071F3CB;
+			remoteInfo = "AFNetworking Mac";
+		};
+		CCD4D6A21A6EF8D700EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6991A6EF8D700EB5B98 /* OctoKitDependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0040C9919FEC274002869A6;
+			remoteInfo = "AFNetworking iOS";
+		};
+		CCD4D6A41A6EF8D700EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6991A6EF8D700EB5B98 /* OctoKitDependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0476E5E17791AA50071F3CB;
+			remoteInfo = "ISO8601DateFormatter Mac";
+		};
+		CCD4D6A61A6EF8D700EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6991A6EF8D700EB5B98 /* OctoKitDependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0040CBB19FEC418002869A6;
+			remoteInfo = "ISO8601DateFormatter iOS";
+		};
+		CCD4D6AF1A6EF92900EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6A81A6EF92900EB5B98 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D04725EA19E49ED7006002AA;
+			remoteInfo = "ReactiveCocoa-Mac";
+		};
+		CCD4D6B11A6EF92900EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6A81A6EF92900EB5B98 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D04725F519E49ED7006002AA;
+			remoteInfo = "ReactiveCocoa-MacTests";
+		};
+		CCD4D6B31A6EF92900EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6A81A6EF92900EB5B98 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D047260C19E49F82006002AA;
+			remoteInfo = "ReactiveCocoa-iOS";
+		};
+		CCD4D6B51A6EF92900EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6A81A6EF92900EB5B98 /* ReactiveCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D047261619E49F82006002AA;
+			remoteInfo = "ReactiveCocoa-iOSTests";
+		};
+		CCD4D6BE1A6EF95900EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6B71A6EF95900EB5B98 /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC3C15F72B23004E8054;
+			remoteInfo = "Mantle-Mac";
+		};
+		CCD4D6C01A6EF95900EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6B71A6EF95900EB5B98 /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC5415F72B23004E8054;
+			remoteInfo = "Mantle-MacTests";
+		};
+		CCD4D6C21A6EF95900EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6B71A6EF95900EB5B98 /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0E9C35719F6DB38000D427D;
+			remoteInfo = "Mantle-iOS";
+		};
+		CCD4D6C41A6EF95900EB5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD4D6B71A6EF95900EB5B98 /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D0E9C36119F6DB38000D427D;
+			remoteInfo = "Mantle-iOSTests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +160,10 @@
 		CC01191B1A6DE670004A4FE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC01191D1A6DE6C7004A4FE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CC01191F1A6DE70F004A4FE0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CCD4D6891A6EF8B700EB5B98 /* OctoKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OctoKit.xcodeproj; path = octokit.objc/OctoKit.xcodeproj; sourceTree = "<group>"; };
+		CCD4D6991A6EF8D700EB5B98 /* OctoKitDependencies.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OctoKitDependencies.xcodeproj; path = octokit.objc/External/OctoKitDependencies/OctoKitDependencies.xcodeproj; sourceTree = "<group>"; };
+		CCD4D6A81A6EF92900EB5B98 /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = "../../Downloads/ReactiveCocoa-master/ReactiveCocoa.xcodeproj"; sourceTree = "<group>"; };
+		CCD4D6B71A6EF95900EB5B98 /* Mantle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mantle.xcodeproj; path = "../../Downloads/Mantle-master/Mantle.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +191,10 @@
 		CC0118E71A6CE382004A4FE0 = {
 			isa = PBXGroup;
 			children = (
+				CCD4D6B71A6EF95900EB5B98 /* Mantle.xcodeproj */,
+				CCD4D6A81A6EF92900EB5B98 /* ReactiveCocoa.xcodeproj */,
+				CCD4D6991A6EF8D700EB5B98 /* OctoKitDependencies.xcodeproj */,
+				CCD4D6891A6EF8B700EB5B98 /* OctoKit.xcodeproj */,
 				CC0118F21A6CE382004A4FE0 /* Code-Up */,
 				CC01190C1A6CE382004A4FE0 /* Code-UpTests */,
 				CC0118F11A6CE382004A4FE0 /* Products */,
@@ -133,6 +253,50 @@
 				CC01190E1A6CE382004A4FE0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCD4D68A1A6EF8B700EB5B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4D6921A6EF8B700EB5B98 /* OctoKit.framework */,
+				CCD4D6941A6EF8B700EB5B98 /* OctoKit Mac Tests.xctest */,
+				CCD4D6961A6EF8B700EB5B98 /* OctoKit.framework */,
+				CCD4D6981A6EF8B700EB5B98 /* OctoKit iOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD4D69A1A6EF8D700EB5B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4D6A11A6EF8D700EB5B98 /* AFNetworking.framework */,
+				CCD4D6A31A6EF8D700EB5B98 /* AFNetworking.framework */,
+				CCD4D6A51A6EF8D700EB5B98 /* ISO8601DateFormatter.framework */,
+				CCD4D6A71A6EF8D700EB5B98 /* ISO8601DateFormatter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD4D6A91A6EF92900EB5B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4D6B01A6EF92900EB5B98 /* ReactiveCocoa.framework */,
+				CCD4D6B21A6EF92900EB5B98 /* ReactiveCocoa-MacTests.xctest */,
+				CCD4D6B41A6EF92900EB5B98 /* ReactiveCocoa.framework */,
+				CCD4D6B61A6EF92900EB5B98 /* ReactiveCocoa-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD4D6B81A6EF95900EB5B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4D6BF1A6EF95900EB5B98 /* Mantle.framework */,
+				CCD4D6C11A6EF95900EB5B98 /* Mantle-MacTests.xctest */,
+				CCD4D6C31A6EF95900EB5B98 /* Mantle.framework */,
+				CCD4D6C51A6EF95900EB5B98 /* Mantle-iOSTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +366,24 @@
 			mainGroup = CC0118E71A6CE382004A4FE0;
 			productRefGroup = CC0118F11A6CE382004A4FE0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CCD4D6B81A6EF95900EB5B98 /* Products */;
+					ProjectRef = CCD4D6B71A6EF95900EB5B98 /* Mantle.xcodeproj */;
+				},
+				{
+					ProductGroup = CCD4D68A1A6EF8B700EB5B98 /* Products */;
+					ProjectRef = CCD4D6891A6EF8B700EB5B98 /* OctoKit.xcodeproj */;
+				},
+				{
+					ProductGroup = CCD4D69A1A6EF8D700EB5B98 /* Products */;
+					ProjectRef = CCD4D6991A6EF8D700EB5B98 /* OctoKitDependencies.xcodeproj */;
+				},
+				{
+					ProductGroup = CCD4D6A91A6EF92900EB5B98 /* Products */;
+					ProjectRef = CCD4D6A81A6EF92900EB5B98 /* ReactiveCocoa.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CC0118EF1A6CE382004A4FE0 /* Code-Up */,
@@ -209,6 +391,125 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CCD4D6921A6EF8B700EB5B98 /* OctoKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OctoKit.framework;
+			remoteRef = CCD4D6911A6EF8B700EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD4D6941A6EF8B700EB5B98 /* OctoKit Mac Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "OctoKit Mac Tests.xctest";
+			remoteRef = CCD4D6931A6EF8B700EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD4D6961A6EF8B700EB5B98 /* OctoKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OctoKit.framework;
+			remoteRef = CCD4D6951A6EF8B700EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD4D6981A6EF8B700EB5B98 /* OctoKit iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "OctoKit iOS Tests.xctest";
+			remoteRef = CCD4D6971A6EF8B700EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD4D6A11A6EF8D700EB5B98 /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = CCD4D6A01A6EF8D700EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD4D6A31A6EF8D700EB5B98 /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = CCD4D6A21A6EF8D700EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD4D6A51A6EF8D700EB5B98 /* ISO8601DateFormatter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ISO8601DateFormatter.framework;
+			remoteRef = CCD4D6A41A6EF8D700EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD4D6A71A6EF8D700EB5B98 /* ISO8601DateFormatter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ISO8601DateFormatter.framework;
+			remoteRef = CCD4D6A61A6EF8D700EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD4D6B01A6EF92900EB5B98 /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = ReactiveCocoa.framework;
+			path = .framework;
+			remoteRef = CCD4D6AF1A6EF92900EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD4D6B21A6EF92900EB5B98 /* ReactiveCocoa-MacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-MacTests.xctest";
+			remoteRef = CCD4D6B11A6EF92900EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD4D6B41A6EF92900EB5B98 /* ReactiveCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = ReactiveCocoa.framework;
+			path = .framework;
+			remoteRef = CCD4D6B31A6EF92900EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD4D6B61A6EF92900EB5B98 /* ReactiveCocoa-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ReactiveCocoa-iOSTests.xctest";
+			remoteRef = CCD4D6B51A6EF92900EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD4D6BF1A6EF95900EB5B98 /* Mantle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = Mantle.framework;
+			path = .framework;
+			remoteRef = CCD4D6BE1A6EF95900EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD4D6C11A6EF95900EB5B98 /* Mantle-MacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mantle-MacTests.xctest";
+			remoteRef = CCD4D6C01A6EF95900EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD4D6C31A6EF95900EB5B98 /* Mantle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = Mantle.framework;
+			path = .framework;
+			remoteRef = CCD4D6C21A6EF95900EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD4D6C51A6EF95900EB5B98 /* Mantle-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mantle-iOSTests.xctest";
+			remoteRef = CCD4D6C41A6EF95900EB5B98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CC0118EE1A6CE382004A4FE0 /* Resources */ = {
