@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @end
@@ -16,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    greenButton.layer.cornerRadius = 5;
 }
 
 - (void)didReceiveMemoryWarning {

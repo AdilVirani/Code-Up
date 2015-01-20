@@ -14,6 +14,10 @@
 		CC0119011A6CE382004A4FE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0119001A6CE382004A4FE0 /* Images.xcassets */; };
 		CC0119041A6CE382004A4FE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0119021A6CE382004A4FE0 /* LaunchScreen.xib */; };
 		CC0119101A6CE382004A4FE0 /* Code_UpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC01190F1A6CE382004A4FE0 /* Code_UpTests.m */; };
+		CC01191A1A6DE668004A4FE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0119191A6DE668004A4FE0 /* UIKit.framework */; };
+		CC01191C1A6DE670004A4FE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01191B1A6DE670004A4FE0 /* Foundation.framework */; };
+		CC01191E1A6DE6C7004A4FE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01191D1A6DE6C7004A4FE0 /* CoreGraphics.framework */; };
+		CC0119201A6DE70F004A4FE0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01191F1A6DE70F004A4FE0 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		CC0119091A6CE382004A4FE0 /* Code-UpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code-UpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC01190E1A6CE382004A4FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC01190F1A6CE382004A4FE0 /* Code_UpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Code_UpTests.m; sourceTree = "<group>"; };
+		CC0119191A6DE668004A4FE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC01191B1A6DE670004A4FE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC01191D1A6DE6C7004A4FE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC01191F1A6DE70F004A4FE0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0119201A6DE70F004A4FE0 /* QuartzCore.framework in Frameworks */,
+				CC01191E1A6DE6C7004A4FE0 /* CoreGraphics.framework in Frameworks */,
+				CC01191C1A6DE670004A4FE0 /* Foundation.framework in Frameworks */,
+				CC01191A1A6DE668004A4FE0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +78,10 @@
 				CC0118F21A6CE382004A4FE0 /* Code-Up */,
 				CC01190C1A6CE382004A4FE0 /* Code-UpTests */,
 				CC0118F11A6CE382004A4FE0 /* Products */,
+				CC01191F1A6DE70F004A4FE0 /* QuartzCore.framework */,
+				CC01191D1A6DE6C7004A4FE0 /* CoreGraphics.framework */,
+				CC0119191A6DE668004A4FE0 /* UIKit.framework */,
+				CC01191B1A6DE670004A4FE0 /* Foundation.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -412,6 +428,7 @@
 				CC0119151A6CE382004A4FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC0119161A6CE382004A4FE0 /* Build configuration list for PBXNativeTarget "Code-UpTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				CC0119181A6CE382004A4FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
