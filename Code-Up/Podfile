@@ -3,6 +3,14 @@ platform :ios, '7.0'
 
 target 'Code-Up' do
 
+    pod 'AFNetworking', '~> 1.3.3'
+    pod 'ISO8601DateFormatter', '0.7'
+    pod 'Mantle', '1.3.1'
+    pod 'OctoKit','0.5'
+    pod 'ReactiveCocoa', '2.2.4'
+    pod 'ReactiveCocoa/Core', '2.2.4'
+    pod 'ReactiveCocoa/no-arc', '2.2.4'
+
 end
 
 target 'Code-UpTests' do
