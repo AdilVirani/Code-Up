@@ -2,13 +2,11 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
@@ -45,13 +43,13 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7J4-pm-8tu" userLabel="Login">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.38823529410000002" green="1" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.34901960784313724" green="1" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration" label=""/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="58" id="0su-4K-wBQ"/>
                                     <constraint firstAttribute="width" constant="262" id="onC-nU-mGu"/>
                                 </constraints>
-                                <state key="normal">
+                                <state key="normal" title="Sign in with Github">
                                     <color key="titleColor" red="0.058823529409999999" green="0.1019607843" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="default">
@@ -68,16 +66,9 @@
                                     </mask>
                                 </variation>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="github" translatesAutoresizingMaskIntoConstraints="NO" id="ECf-45-Dfm">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular" misplaced="YES">
-                                    <rect key="frame" x="275" y="575" width="50" height="50"/>
-                                </variation>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.058823529411764705" green="0.10196078431372549" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="ECf-45-Dfm" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="259" id="0IH-6d-D4G"/>
                             <constraint firstAttribute="centerX" secondItem="7J4-pm-8tu" secondAttribute="centerX" id="1AH-RO-h1Y"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="7J4-pm-8tu" secondAttribute="bottom" constant="171" id="43m-SZ-gx6"/>
                             <constraint firstItem="Ybc-w4-5RY" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="159" id="6jb-Lh-fug">
@@ -90,32 +81,24 @@
                             <constraint firstAttribute="centerX" secondItem="Ybc-w4-5RY" secondAttribute="centerX" id="SAr-AN-hci">
                                 <variation key="heightClass=regular" constant="-5"/>
                             </constraint>
-                            <constraint firstAttribute="trailingMargin" secondItem="ECf-45-Dfm" secondAttribute="trailing" constant="259" id="byj-YU-Sl8"/>
-                            <constraint firstItem="ECf-45-Dfm" firstAttribute="top" secondItem="Ybc-w4-5RY" secondAttribute="bottom" constant="194" id="cO0-1i-kwA"/>
                             <constraint firstItem="qjC-PH-iNE" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="26" id="ckf-rX-JDL">
                                 <variation key="heightClass=regular" constant="166"/>
                             </constraint>
-                            <constraint firstAttribute="centerX" secondItem="ECf-45-Dfm" secondAttribute="centerX" id="fpK-G8-sbG"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="qjC-PH-iNE"/>
                                 <exclude reference="Ybc-w4-5RY"/>
                                 <exclude reference="7J4-pm-8tu"/>
-                                <exclude reference="ECf-45-Dfm"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="8io-Dm-8Sn"/>
-                                <exclude reference="ckf-rX-JDL"/>
+                                <exclude reference="43m-SZ-gx6"/>
+                                <exclude reference="EEu-RV-6mr"/>
                                 <exclude reference="6jb-Lh-fug"/>
                                 <exclude reference="SAr-AN-hci"/>
                                 <exclude reference="1AH-RO-h1Y"/>
-                                <exclude reference="0IH-6d-D4G"/>
-                                <exclude reference="byj-YU-Sl8"/>
-                                <exclude reference="cO0-1i-kwA"/>
-                                <exclude reference="fpK-G8-sbG"/>
-                                <exclude reference="43m-SZ-gx6"/>
-                                <exclude reference="EEu-RV-6mr"/>
+                                <exclude reference="8io-Dm-8Sn"/>
+                                <exclude reference="ckf-rX-JDL"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
@@ -123,20 +106,15 @@
                                 <include reference="qjC-PH-iNE"/>
                                 <include reference="Ybc-w4-5RY"/>
                                 <include reference="7J4-pm-8tu"/>
-                                <include reference="ECf-45-Dfm"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="8io-Dm-8Sn"/>
-                                <include reference="ckf-rX-JDL"/>
+                                <include reference="43m-SZ-gx6"/>
+                                <include reference="EEu-RV-6mr"/>
                                 <include reference="6jb-Lh-fug"/>
                                 <include reference="SAr-AN-hci"/>
                                 <include reference="1AH-RO-h1Y"/>
-                                <include reference="0IH-6d-D4G"/>
-                                <include reference="byj-YU-Sl8"/>
-                                <include reference="cO0-1i-kwA"/>
-                                <include reference="fpK-G8-sbG"/>
-                                <include reference="43m-SZ-gx6"/>
-                                <include reference="EEu-RV-6mr"/>
+                                <include reference="8io-Dm-8Sn"/>
+                                <include reference="ckf-rX-JDL"/>
                             </mask>
                         </variation>
                     </view>
@@ -144,12 +122,12 @@
                         <outlet property="greenButton" destination="7J4-pm-8tu" id="Jnh-Gb-uZ1"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="284" y="331.5"/>
         </scene>
     </scenes>
     <resources>
         <image name="Code-Up" width="330" height="143"/>
-        <image name="github" width="512" height="512"/>
     </resources>
 </document>
