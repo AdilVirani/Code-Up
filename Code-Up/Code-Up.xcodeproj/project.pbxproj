@@ -18,6 +18,11 @@
 		CC01191C1A6DE670004A4FE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01191B1A6DE670004A4FE0 /* Foundation.framework */; };
 		CC01191E1A6DE6C7004A4FE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01191D1A6DE6C7004A4FE0 /* CoreGraphics.framework */; };
 		CC0119201A6DE70F004A4FE0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01191F1A6DE70F004A4FE0 /* QuartzCore.framework */; };
+		CCD4D6CB1A6EF9C100EB5B98 /* libDHCPServer.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD4D6C61A6EF9C100EB5B98 /* libDHCPServer.A.dylib */; };
+		CCD4D6CC1A6EF9C100EB5B98 /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD4D6C71A6EF9C100EB5B98 /* libicucore.A.dylib */; };
+		CCD4D6CD1A6EF9C100EB5B98 /* libipsec.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD4D6C81A6EF9C100EB5B98 /* libipsec.A.dylib */; };
+		CCD4D6CE1A6EF9C100EB5B98 /* libobjc.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD4D6C91A6EF9C100EB5B98 /* libobjc.A.dylib */; };
+		CCD4D6CF1A6EF9C100EB5B98 /* libtidy.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD4D6CA1A6EF9C100EB5B98 /* libtidy.A.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +169,11 @@
 		CCD4D6991A6EF8D700EB5B98 /* OctoKitDependencies.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OctoKitDependencies.xcodeproj; path = octokit.objc/External/OctoKitDependencies/OctoKitDependencies.xcodeproj; sourceTree = "<group>"; };
 		CCD4D6A81A6EF92900EB5B98 /* ReactiveCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveCocoa.xcodeproj; path = "../../Downloads/ReactiveCocoa-master/ReactiveCocoa.xcodeproj"; sourceTree = "<group>"; };
 		CCD4D6B71A6EF95900EB5B98 /* Mantle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mantle.xcodeproj; path = "../../Downloads/Mantle-master/Mantle.xcodeproj"; sourceTree = "<group>"; };
+		CCD4D6C61A6EF9C100EB5B98 /* libDHCPServer.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libDHCPServer.A.dylib; path = usr/lib/libDHCPServer.A.dylib; sourceTree = SDKROOT; };
+		CCD4D6C71A6EF9C100EB5B98 /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = usr/lib/libicucore.A.dylib; sourceTree = SDKROOT; };
+		CCD4D6C81A6EF9C100EB5B98 /* libipsec.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libipsec.A.dylib; path = usr/lib/libipsec.A.dylib; sourceTree = SDKROOT; };
+		CCD4D6C91A6EF9C100EB5B98 /* libobjc.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.A.dylib; path = usr/lib/libobjc.A.dylib; sourceTree = SDKROOT; };
+		CCD4D6CA1A6EF9C100EB5B98 /* libtidy.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtidy.A.dylib; path = usr/lib/libtidy.A.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +181,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD4D6CB1A6EF9C100EB5B98 /* libDHCPServer.A.dylib in Frameworks */,
+				CCD4D6CC1A6EF9C100EB5B98 /* libicucore.A.dylib in Frameworks */,
+				CCD4D6CD1A6EF9C100EB5B98 /* libipsec.A.dylib in Frameworks */,
+				CCD4D6CE1A6EF9C100EB5B98 /* libobjc.A.dylib in Frameworks */,
+				CCD4D6CF1A6EF9C100EB5B98 /* libtidy.A.dylib in Frameworks */,
 				CC0119201A6DE70F004A4FE0 /* QuartzCore.framework in Frameworks */,
 				CC01191E1A6DE6C7004A4FE0 /* CoreGraphics.framework in Frameworks */,
 				CC01191C1A6DE670004A4FE0 /* Foundation.framework in Frameworks */,
@@ -191,6 +206,11 @@
 		CC0118E71A6CE382004A4FE0 = {
 			isa = PBXGroup;
 			children = (
+				CCD4D6C61A6EF9C100EB5B98 /* libDHCPServer.A.dylib */,
+				CCD4D6C71A6EF9C100EB5B98 /* libicucore.A.dylib */,
+				CCD4D6C81A6EF9C100EB5B98 /* libipsec.A.dylib */,
+				CCD4D6C91A6EF9C100EB5B98 /* libobjc.A.dylib */,
+				CCD4D6CA1A6EF9C100EB5B98 /* libtidy.A.dylib */,
 				CCD4D6B71A6EF95900EB5B98 /* Mantle.xcodeproj */,
 				CCD4D6A81A6EF92900EB5B98 /* ReactiveCocoa.xcodeproj */,
 				CCD4D6991A6EF8D700EB5B98 /* OctoKitDependencies.xcodeproj */,
