@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCD4D6DE1A6F5DCD00EB5B98 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD4D6DD1A6F5DCD00EB5B98 /* AppKit.framework */; };
+		CCD4D6E01A6F5DDB00EB5B98 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD4D6DF1A6F5DDB00EB5B98 /* SystemConfiguration.framework */; };
 		D0040CD819FEC494002869A6 /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D0476DD4177916C60071F3CB /* AFHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0040CD919FEC494002869A6 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D0476DD5177916C60071F3CB /* AFHTTPClient.m */; };
 		D0040CDA19FEC494002869A6 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D0476DD6177916C60071F3CB /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,8 +46,6 @@
 		D0476DF6177916C60071F3CB /* AFXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D0476DE3177916C60071F3CB /* AFXMLRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0476DF7177916C60071F3CB /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D0476DE4177916C60071F3CB /* AFXMLRequestOperation.m */; };
 		D0476DFA177916DC0071F3CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0476DC5177916920071F3CB /* Foundation.framework */; };
-		D0476E23177918020071F3CB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0476E22177918020071F3CB /* SystemConfiguration.framework */; };
-		D0476E291779181C0071F3CB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0476E281779181C0071F3CB /* AppKit.framework */; };
 		D0476E9817791B630071F3CB /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D0476E9617791B630071F3CB /* ISO8601DateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0476E9917791B630071F3CB /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0476E9717791B630071F3CB /* ISO8601DateFormatter.m */; };
 		D0476EA017791B8D0071F3CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0476DC5177916920071F3CB /* Foundation.framework */; };
@@ -53,6 +53,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CCD4D6DD1A6F5DCD00EB5B98 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CCD4D6DF1A6F5DDB00EB5B98 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D0040C6019FEBF49002869A6 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 		D0040C6219FEBF49002869A6 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		D0040C6319FEBF49002869A6 /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
@@ -129,9 +131,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD4D6E01A6F5DDB00EB5B98 /* SystemConfiguration.framework in Frameworks */,
+				CCD4D6DE1A6F5DCD00EB5B98 /* AppKit.framework in Frameworks */,
 				F688018817C1CA7600ECC7EC /* Security.framework in Frameworks */,
-				D0476E291779181C0071F3CB /* AppKit.framework in Frameworks */,
-				D0476E23177918020071F3CB /* SystemConfiguration.framework in Frameworks */,
 				D0476DFA177916DC0071F3CB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +240,8 @@
 		D0476DBF177916920071F3CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CCD4D6DF1A6F5DDB00EB5B98 /* SystemConfiguration.framework */,
+				CCD4D6DD1A6F5DCD00EB5B98 /* AppKit.framework */,
 				F688018717C1CA7600ECC7EC /* Security.framework */,
 				D0476E281779181C0071F3CB /* AppKit.framework */,
 				D0476DC5177916920071F3CB /* Foundation.framework */,
