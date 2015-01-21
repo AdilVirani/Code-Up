@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		686AB74BD08528BF9637BD5F /* libPods-Code-Up.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 166D14066D886370041A4F9F /* libPods-Code-Up.a */; };
 		CC0118F61A6CE382004A4FE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0118F51A6CE382004A4FE0 /* main.m */; };
 		CC0118F91A6CE382004A4FE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0118F81A6CE382004A4FE0 /* AppDelegate.m */; };
 		CC0118FC1A6CE382004A4FE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0118FB1A6CE382004A4FE0 /* ViewController.m */; };
@@ -78,7 +77,6 @@
 				CC0119201A6DE70F004A4FE0 /* QuartzCore.framework in Frameworks */,
 				CC01191E1A6DE6C7004A4FE0 /* CoreGraphics.framework in Frameworks */,
 				CC01191A1A6DE668004A4FE0 /* UIKit.framework in Frameworks */,
-				686AB74BD08528BF9637BD5F /* libPods-Code-Up.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +437,7 @@
 			baseConfigurationReference = 175C38E64EF8381F70110A3D /* Pods-Code-Up.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Code-Up/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -450,6 +449,7 @@
 			baseConfigurationReference = 6136860C2B4B512B17AB39A2 /* Pods-Code-Up.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Code-Up/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
