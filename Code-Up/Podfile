@@ -1,11 +1,2 @@
 # Uncomment this line to define a global platform for your project
-platform :ios, '7.0'
-
-target 'Code-Up' do
-
-end
-
-target 'Code-UpTests' do
-
-end
-
+pod 'OctoKit', '~> 0.5'
