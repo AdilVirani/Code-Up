@@ -65,6 +65,9 @@
                                         <include reference="onC-nU-mGu"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="signin:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qVl-wu-8BR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.058823529411764705" green="0.10196078431372549" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
@@ -120,6 +123,7 @@
                     </view>
                     <connections>
                         <outlet property="greenButton" destination="7J4-pm-8tu" id="Jnh-Gb-uZ1"/>
+                        <outletCollection property="signin" destination="7J4-pm-8tu" id="pdo-ar-0Uj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

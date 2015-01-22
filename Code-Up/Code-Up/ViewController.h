@@ -15,6 +15,7 @@
     
     IBOutlet UIButton *greenButton;
 }
+- (IBAction)signin:(id)sender;
 
 
 @end
