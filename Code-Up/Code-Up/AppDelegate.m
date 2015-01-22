@@ -7,17 +7,31 @@
 //
 
 #import "AppDelegate.h"
+#import <OctoKit/OCTClient.h>
 
-@interface AppDelegate ()
-
-@end
 
 @implementation AppDelegate
 
+NSString * const GITHUB_CLIENT_ID = @"bfde0e23418620e0b91f";
+NSString * const GITHUB_CLIENT_SECRET = @"2939c6f811704f47af23d0ec3b50ffdfac1e7912";
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [OCTClient setClientID:GITHUB_CLIENT_ID clientSecret:GITHUB_CLIENT_SECRET];
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    
+    if([url.host isEqual:@"oauth"]) {
+        [OCTClient completeSignInWithCallbackURL:url];
+        return YES;
+    } else {
+        return NO;
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -7,11 +7,8 @@
 //
 
 #import "ViewController.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
-
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
 
@@ -19,6 +16,15 @@
     [super viewDidLoad];
     
     greenButton.layer.cornerRadius = 5;
+    
+    [[OCTClient signInToServerUsingWebBrowser:OCTServer.dotComServer scopes:OCTClientAuthorizationScopesUser]
+     subscribeNext:^(OCTClient *authenticatedClient) {
+         NSLog(@"success");
+         // Authentication was successful. Do something with the created client.
+     } error:^(NSError *error) {
+         // Authentication failed.
+         NSLog(@"failure");
+     }];
 }
 
 - (void)didReceiveMemoryWarning {

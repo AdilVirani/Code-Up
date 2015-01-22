@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <QuartzCore/QuartzCore.h>
+//#import <QuartzCore/QuartzCore.h>
+#import <OctoKit/OCTClient.h>
+#import <OctoKit/OCTServer.h>
 
 @interface ViewController : UIViewController {
     
