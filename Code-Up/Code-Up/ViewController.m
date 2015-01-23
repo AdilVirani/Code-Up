@@ -15,7 +15,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    greenButton.layer.cornerRadius = 5;
+    signin.layer.cornerRadius = 5;
 
 }
 

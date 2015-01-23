@@ -13,7 +13,7 @@
 
 @interface ViewController : UIViewController {
     
-    IBOutlet UIButton *greenButton;
+    IBOutlet UIButton *signin;
 }
 - (IBAction)signin:(id)sender;
 
