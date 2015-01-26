@@ -16,9 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgu-Vd-d4T">
-                                <rect key="frame" x="106" y="502" width="41" height="30"/>
-                                <state key="normal" title="signIn">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Code-Up" translatesAutoresizingMaskIntoConstraints="NO" id="2pn-XE-oEj">
+                                <rect key="frame" x="135" y="198" width="330" height="143"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Code Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4I-81-VsN">
+                                <rect key="frame" x="206" y="320" width="189" height="63"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="47"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgu-Vd-d4T">
+                                <rect key="frame" x="190" y="490" width="221" height="52"/>
+                                <color key="backgroundColor" red="0.34901960780000002" green="1" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="21"/>
+                                <state key="normal" title="Sign in with Github">
+                                    <color key="titleColor" red="0.054901960780000002" green="0.090196078430000007" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -26,7 +38,12 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.054901960780000002" green="0.090196078430000007" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="O4I-81-VsN" secondAttribute="centerX" id="9fM-ML-eGw"/>
+                            <constraint firstAttribute="centerX" secondItem="2pn-XE-oEj" secondAttribute="centerX" id="RVr-Yg-LQ1"/>
+                            <constraint firstAttribute="centerX" secondItem="mgu-Vd-d4T" secondAttribute="centerX" id="v87-nB-gGf"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="signInButton" destination="mgu-Vd-d4T" id="b0D-89-Lpx"/>
@@ -37,4 +54,7 @@
             <point key="canvasLocation" x="212" y="293"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Code-Up" width="330" height="143"/>
+    </resources>
 </document>
