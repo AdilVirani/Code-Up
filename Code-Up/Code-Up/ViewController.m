@@ -15,7 +15,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    signin.layer.cornerRadius = 5;
+    self.signInButton.layer.cornerRadius = 5;
 
 }
 
@@ -24,9 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-- (IBAction)signin:(id)sender {
-    
+- (IBAction)signInButtonWasHit:(id)sender {
     [[OCTClient signInToServerUsingWebBrowser:OCTServer.dotComServer scopes:OCTClientAuthorizationScopesUser]
      subscribeNext:^(OCTClient *authenticatedClient) {
          NSLog(@"success");
@@ -35,6 +33,7 @@
          // Authentication failed.
          NSLog(@"failure");
      }];
-    
 }
+
+
 @end

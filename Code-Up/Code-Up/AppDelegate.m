@@ -18,6 +18,13 @@ NSString * const GITHUB_CLIENT_SECRET = @"2939c6f811704f47af23d0ec3b50ffdfac1e79
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [OCTClient setClientID:GITHUB_CLIENT_ID clientSecret:GITHUB_CLIENT_SECRET];
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UIViewController *rootVC = [[UIStoryboard storyboardWithName:@"Main" bundle: nil] instantiateInitialViewController];
+    [self.window setRootViewController:rootVC];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -11,12 +11,11 @@
 #import <OctoKit/OCTClient.h>
 #import <OctoKit/OCTServer.h>
 
-@interface ViewController : UIViewController {
+@interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *signInButton;
     
-    IBOutlet UIButton *signin;
-}
-- (IBAction)signin:(id)sender;
 
+- (IBAction)signInButtonWasHit:(id)sender;
 
 @end
 

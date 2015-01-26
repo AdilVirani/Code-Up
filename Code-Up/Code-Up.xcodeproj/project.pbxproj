@@ -80,6 +80,10 @@
 		A9A8393AEF053EA43D3D26B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC01191F1A6DE70F004A4FE0 /* QuartzCore.framework */,
+				CC01191D1A6DE6C7004A4FE0 /* CoreGraphics.framework */,
+				CC0119191A6DE668004A4FE0 /* UIKit.framework */,
+				CC01191B1A6DE670004A4FE0 /* Foundation.framework */,
 				86EF2A63FAD26681F54AB416 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -100,10 +104,6 @@
 				CC0118F21A6CE382004A4FE0 /* Code-Up */,
 				CC01190C1A6CE382004A4FE0 /* Code-UpTests */,
 				CC0118F11A6CE382004A4FE0 /* Products */,
-				CC01191F1A6DE70F004A4FE0 /* QuartzCore.framework */,
-				CC01191D1A6DE6C7004A4FE0 /* CoreGraphics.framework */,
-				CC0119191A6DE668004A4FE0 /* UIKit.framework */,
-				CC01191B1A6DE670004A4FE0 /* Foundation.framework */,
 				A9A8393AEF053EA43D3D26B6 /* Frameworks */,
 				C37067FBD15DB0A74BD6302A /* Pods */,
 			);
