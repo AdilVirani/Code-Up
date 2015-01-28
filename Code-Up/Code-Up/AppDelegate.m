@@ -14,7 +14,7 @@
 
 NSString * const GITHUB_CLIENT_ID = @"bfde0e23418620e0b91f";
 NSString * const GITHUB_CLIENT_SECRET = @"2939c6f811704f47af23d0ec3b50ffdfac1e7912";
-NSString * const URL = @"http://code-up.com";
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [OCTClient setClientID:GITHUB_CLIENT_ID clientSecret:GITHUB_CLIENT_SECRET];
