@@ -32,11 +32,16 @@ NSString * const GITHUB_CLIENT_SECRET = @"2939c6f811704f47af23d0ec3b50ffdfac1e79
             openURL:(NSURL *)url
   sourceApplication:(NSString *)sourceApplication
          annotation:(id)annotation {
+    NSLog(@"Worked");
+
     
     if([url.host isEqual:@"oauth"]) {
         [OCTClient completeSignInWithCallbackURL:url];
+        NSLog(@"Worked_1");
         return YES;
     } else {
+        NSLog(@"Worked_2");
+
         return NO;
     }
 }
