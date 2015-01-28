@@ -14,7 +14,7 @@
 
 NSString * const GITHUB_CLIENT_ID = @"bfde0e23418620e0b91f";
 NSString * const GITHUB_CLIENT_SECRET = @"2939c6f811704f47af23d0ec3b50ffdfac1e7912";
-
+NSString * const URL = @"http://code-up.com";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [OCTClient setClientID:GITHUB_CLIENT_ID clientSecret:GITHUB_CLIENT_SECRET];
@@ -28,20 +28,12 @@ NSString * const GITHUB_CLIENT_SECRET = @"2939c6f811704f47af23d0ec3b50ffdfac1e79
     return YES;
 }
 
-- (BOOL)application:(UIApplication *)application
-            openURL:(NSURL *)url
-  sourceApplication:(NSString *)sourceApplication
-         annotation:(id)annotation {
-    NSLog(@"Worked");
-
-    
-    if([url.host isEqual:@"oauth"]) {
-        [OCTClient completeSignInWithCallbackURL:url];
-        NSLog(@"Worked_1");
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)URL sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    // For handling a callback URL like my-app://oauth
+    if ([URL.host isEqual:@"oauth"]) {
+        [OCTClient completeSignInWithCallbackURL:URL];
         return YES;
     } else {
-        NSLog(@"Worked_2");
-
         return NO;
     }
 }
