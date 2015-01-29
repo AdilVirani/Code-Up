@@ -27,7 +27,7 @@
 - (IBAction)signInButtonWasHit:(id)sender {
     [[OCTClient signInToServerUsingWebBrowser:OCTServer.dotComServer scopes:OCTClientAuthorizationScopesUser]
      subscribeNext:^(OCTClient *authenticatedClient) {
-         if(authenticatedClient){NSLog(@"dickbutt");} else {NSLog(@"client is null");}
+         if(authenticatedClient){ [self performSegueWithIdentifier: @"main" sender: self];} else {NSLog(@"client is null");}
          // Authentication was successful. Do something with the created client.
      } error:^(NSError *error) {
          // Authentication failed.

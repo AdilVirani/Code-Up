@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="l52-IJ-bnd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="l52-IJ-bnd">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -17,16 +17,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Code-Up" translatesAutoresizingMaskIntoConstraints="NO" id="2pn-XE-oEj">
-                                <rect key="frame" x="-5" y="146" width="330" height="143"/>
+                                <rect key="frame" x="-5" y="168" width="330" height="143"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Code Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4I-81-VsN">
-                                <rect key="frame" x="206" y="248" width="189" height="63"/>
+                                <rect key="frame" x="66" y="285" width="189" height="63"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="47"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgu-Vd-d4T">
-                                <rect key="frame" x="190" y="382.5" width="221" height="52"/>
+                                <rect key="frame" x="50" y="402" width="221" height="52"/>
                                 <color key="backgroundColor" red="0.34901960780000002" green="1" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="21"/>
                                 <state key="normal" title="Sign in with Github">
@@ -35,6 +35,7 @@
                                 </state>
                                 <connections>
                                     <action selector="signInButtonWasHit:" destination="l52-IJ-bnd" eventType="touchUpInside" id="PHf-f7-HJS"/>
+                                    <segue destination="1LW-zF-oBO" kind="custom" identifier="main" id="mvi-Vc-rGP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -52,6 +53,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xVI-MH-CYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="212" y="293"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="iAf-eS-L9v">
+            <objects>
+                <viewController id="1LW-zF-oBO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ip4-EZ-WhX"/>
+                        <viewControllerLayoutGuide type="bottom" id="aFf-2k-yzz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jsx-2g-KV1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O29-wI-WZI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="630" y="319"/>
         </scene>
     </scenes>
     <resources>
