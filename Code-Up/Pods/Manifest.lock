@@ -15,9 +15,11 @@ PODS:
   - ReactiveCocoa/Core (2.2.4):
     - ReactiveCocoa/no-arc
   - ReactiveCocoa/no-arc (2.2.4)
+  - RESideMenu (4.0.7)
 
 DEPENDENCIES:
   - OctoKit (~> 0.5)
+  - RESideMenu (~> 4.0.7)
 
 SPEC CHECKSUMS:
   AFNetworking: 80c4e0652b08eb34e25b9c0ff3c82556fe5967b4
@@ -25,5 +27,6 @@ SPEC CHECKSUMS:
   Mantle: a59fdca5cfedd43a0707f0418b3df4b043a1425d
   OctoKit: 82db3234475890f00f4050a3887f7b155fe71a6e
   ReactiveCocoa: 2af0e10b1cb17a060898992474eaf51d12f34ae9
+  RESideMenu: a9c1cd2e64e60e1d3166ddac01a83e215a0e4d30
 
 COCOAPODS: 0.35.0
