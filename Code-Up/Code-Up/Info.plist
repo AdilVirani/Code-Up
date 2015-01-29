@@ -22,10 +22,10 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
-			<string>code-up://</string>
+			<string>com.AdilVirani.Code-Up</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>code-up://</string>
+                <string>code-up</string>
 			</array>
 		</dict>
 	</array>
@@ -42,6 +42,8 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>
