@@ -26,6 +26,8 @@ NSString * const GITHUB_CLIENT_SECRET = @"2939c6f811704f47af23d0ec3b50ffdfac1e79
     [self.window makeKeyAndVisible];
     
     return YES;
+    
+
 }
 
 
@@ -41,6 +43,7 @@ NSString * const GITHUB_CLIENT_SECRET = @"2939c6f811704f47af23d0ec3b50ffdfac1e79
      //For handling a callback URL like my-app://oauth
     return YES;
     }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
 
