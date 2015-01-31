@@ -25,7 +25,7 @@
 			<string>com.AdilVirani.Code-Up</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-                <string>code-up</string>
+				<string>code-up</string>
 			</array>
 		</dict>
 	</array>
@@ -35,6 +35,8 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

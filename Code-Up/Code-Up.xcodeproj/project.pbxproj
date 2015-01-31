@@ -10,7 +10,6 @@
 		AFE48789DE793D1B106F80AF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86EF2A63FAD26681F54AB416 /* libPods.a */; };
 		CC0118F61A6CE382004A4FE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0118F51A6CE382004A4FE0 /* main.m */; };
 		CC0118F91A6CE382004A4FE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0118F81A6CE382004A4FE0 /* AppDelegate.m */; };
-		CC0118FC1A6CE382004A4FE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0118FB1A6CE382004A4FE0 /* ViewController.m */; };
 		CC0118FF1A6CE382004A4FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0118FD1A6CE382004A4FE0 /* Main.storyboard */; };
 		CC0119011A6CE382004A4FE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0119001A6CE382004A4FE0 /* Images.xcassets */; };
 		CC0119041A6CE382004A4FE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0119021A6CE382004A4FE0 /* LaunchScreen.xib */; };
@@ -19,6 +18,13 @@
 		CC01191C1A6DE670004A4FE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01191B1A6DE670004A4FE0 /* Foundation.framework */; };
 		CC01191E1A6DE6C7004A4FE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01191D1A6DE6C7004A4FE0 /* CoreGraphics.framework */; };
 		CC0119201A6DE70F004A4FE0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01191F1A6DE70F004A4FE0 /* QuartzCore.framework */; };
+		CC10D70A1A7D6C92009D1C4B /* DEMORootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC10D7091A7D6C92009D1C4B /* DEMORootViewController.m */; };
+		CC10D70D1A7D6D01009D1C4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC10D70C1A7D6D01009D1C4B /* ViewController.m */; };
+		CCD1AEBB1A7CBE5100E84319 /* DEMOFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD1AEB31A7CBE5100E84319 /* DEMOFirstViewController.m */; };
+		CCD1AEBC1A7CBE5100E84319 /* DEMOSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD1AEB51A7CBE5100E84319 /* DEMOSecondViewController.m */; };
+		CCD1AEBD1A7CBE5100E84319 /* DEMOLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD1AEB71A7CBE5100E84319 /* DEMOLeftMenuViewController.m */; };
+		CCD1AEBE1A7CBE5100E84319 /* DEMORightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD1AEB91A7CBE5100E84319 /* DEMORightMenuViewController.m */; };
+		CCD1AEBF1A7CC13A00E84319 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC0118F41A6CE382004A4FE0 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		CC0118F51A6CE382004A4FE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC0118F71A6CE382004A4FE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CC0118F81A6CE382004A4FE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CC0118FA1A6CE382004A4FE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CC0118FB1A6CE382004A4FE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CC0118FE1A6CE382004A4FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC0119001A6CE382004A4FE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CC0119031A6CE382004A4FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -51,6 +55,18 @@
 		CC01191B1A6DE670004A4FE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CC01191D1A6DE6C7004A4FE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CC01191F1A6DE70F004A4FE0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CC10D7081A7D6C92009D1C4B /* DEMORootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEMORootViewController.h; path = "../../../Downloads/RESideMenu-master/Examples/Storyboards/RESideMenuStoryboardsExample/DEMORootViewController.h"; sourceTree = "<group>"; };
+		CC10D7091A7D6C92009D1C4B /* DEMORootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEMORootViewController.m; path = "../../../Downloads/RESideMenu-master/Examples/Storyboards/RESideMenuStoryboardsExample/DEMORootViewController.m"; sourceTree = "<group>"; };
+		CC10D70B1A7D6D01009D1C4B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../../../Downloads/Code-Up-master-3/Code-Up/Code-Up/ViewController.h"; sourceTree = "<group>"; };
+		CC10D70C1A7D6D01009D1C4B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../../../Downloads/Code-Up-master-3/Code-Up/Code-Up/ViewController.m"; sourceTree = "<group>"; };
+		CCD1AEB21A7CBE5100E84319 /* DEMOFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEMOFirstViewController.h; path = "../../../Downloads/RESideMenu-master/Examples/Storyboards/RESideMenuStoryboardsExample/DEMOFirstViewController.h"; sourceTree = "<group>"; };
+		CCD1AEB31A7CBE5100E84319 /* DEMOFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEMOFirstViewController.m; path = "../../../Downloads/RESideMenu-master/Examples/Storyboards/RESideMenuStoryboardsExample/DEMOFirstViewController.m"; sourceTree = "<group>"; };
+		CCD1AEB41A7CBE5100E84319 /* DEMOSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEMOSecondViewController.h; path = "../../../Downloads/RESideMenu-master/Examples/Storyboards/RESideMenuStoryboardsExample/DEMOSecondViewController.h"; sourceTree = "<group>"; };
+		CCD1AEB51A7CBE5100E84319 /* DEMOSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEMOSecondViewController.m; path = "../../../Downloads/RESideMenu-master/Examples/Storyboards/RESideMenuStoryboardsExample/DEMOSecondViewController.m"; sourceTree = "<group>"; };
+		CCD1AEB61A7CBE5100E84319 /* DEMOLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEMOLeftMenuViewController.h; path = "../../../Downloads/RESideMenu-master/Examples/Storyboards/RESideMenuStoryboardsExample/DEMOLeftMenuViewController.h"; sourceTree = "<group>"; };
+		CCD1AEB71A7CBE5100E84319 /* DEMOLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEMOLeftMenuViewController.m; path = "../../../Downloads/RESideMenu-master/Examples/Storyboards/RESideMenuStoryboardsExample/DEMOLeftMenuViewController.m"; sourceTree = "<group>"; };
+		CCD1AEB81A7CBE5100E84319 /* DEMORightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEMORightMenuViewController.h; path = "../../../Downloads/RESideMenu-master/Examples/Storyboards/RESideMenuStoryboardsExample/DEMORightMenuViewController.h"; sourceTree = "<group>"; };
+		CCD1AEB91A7CBE5100E84319 /* DEMORightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEMORightMenuViewController.m; path = "../../../Downloads/RESideMenu-master/Examples/Storyboards/RESideMenuStoryboardsExample/DEMORightMenuViewController.m"; sourceTree = "<group>"; };
 		F89C7104AA936773A8E3437F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,10 +137,20 @@
 		CC0118F21A6CE382004A4FE0 /* Code-Up */ = {
 			isa = PBXGroup;
 			children = (
+				CC10D70B1A7D6D01009D1C4B /* ViewController.h */,
+				CC10D70C1A7D6D01009D1C4B /* ViewController.m */,
+				CC10D7081A7D6C92009D1C4B /* DEMORootViewController.h */,
+				CC10D7091A7D6C92009D1C4B /* DEMORootViewController.m */,
+				CCD1AEB21A7CBE5100E84319 /* DEMOFirstViewController.h */,
+				CCD1AEB31A7CBE5100E84319 /* DEMOFirstViewController.m */,
+				CCD1AEB41A7CBE5100E84319 /* DEMOSecondViewController.h */,
+				CCD1AEB51A7CBE5100E84319 /* DEMOSecondViewController.m */,
+				CCD1AEB61A7CBE5100E84319 /* DEMOLeftMenuViewController.h */,
+				CCD1AEB71A7CBE5100E84319 /* DEMOLeftMenuViewController.m */,
+				CCD1AEB81A7CBE5100E84319 /* DEMORightMenuViewController.h */,
+				CCD1AEB91A7CBE5100E84319 /* DEMORightMenuViewController.m */,
 				CC0118F71A6CE382004A4FE0 /* AppDelegate.h */,
 				CC0118F81A6CE382004A4FE0 /* AppDelegate.m */,
-				CC0118FA1A6CE382004A4FE0 /* ViewController.h */,
-				CC0118FB1A6CE382004A4FE0 /* ViewController.m */,
 				CC0118FD1A6CE382004A4FE0 /* Main.storyboard */,
 				CC0119001A6CE382004A4FE0 /* Images.xcassets */,
 				CC0119021A6CE382004A4FE0 /* LaunchScreen.xib */,
@@ -241,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD1AEBF1A7CC13A00E84319 /* Info.plist in Resources */,
 				CC0118FF1A6CE382004A4FE0 /* Main.storyboard in Resources */,
 				CC0119041A6CE382004A4FE0 /* LaunchScreen.xib in Resources */,
 				CC0119011A6CE382004A4FE0 /* Images.xcassets in Resources */,
@@ -294,9 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC0118FC1A6CE382004A4FE0 /* ViewController.m in Sources */,
 				CC0118F91A6CE382004A4FE0 /* AppDelegate.m in Sources */,
 				CC0118F61A6CE382004A4FE0 /* main.m in Sources */,
+				CC10D70D1A7D6D01009D1C4B /* ViewController.m in Sources */,
+				CCD1AEBB1A7CBE5100E84319 /* DEMOFirstViewController.m in Sources */,
+				CCD1AEBC1A7CBE5100E84319 /* DEMOSecondViewController.m in Sources */,
+				CCD1AEBD1A7CBE5100E84319 /* DEMOLeftMenuViewController.m in Sources */,
+				CC10D70A1A7D6C92009D1C4B /* DEMORootViewController.m in Sources */,
+				CCD1AEBE1A7CBE5100E84319 /* DEMORightMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Code-Up/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -431,6 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Code-Up/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
