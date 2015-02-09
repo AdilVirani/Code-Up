@@ -1,4 +1,5 @@
 # Uncomment this line to define a global platform for your project
 pod 'OctoKit', '~> 0.5'
 pod 'RESideMenu', '~> 4.0.7'
-pod 'FlatUIKit' 
+pod 'FlatUIKit'
+
