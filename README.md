@@ -1,3 +1,3 @@
 # Code Up
-First ever social networking app for developers by a developer
+An app that allows mentors and hackers to share  knowledge
 -work in progress-
